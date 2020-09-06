@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Dibyajyoti Mishra @ThyDreams",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ip": "^1.0.4",
+    "geoip-lite": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
