@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
     let humidity = `${weather.main.humidity}`;
     let wind = `${weather.wind.speed}`;
     return res.json({
-      "Your city": city,
+      "city": city,
       "Temperature in celsius": temp,
       "Feels Like": feel,
       "Pressure in hPA": pressure,
